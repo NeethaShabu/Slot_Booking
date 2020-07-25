@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        
+    a{
+        padding-left:500px;
+        color: #4d0099;
+        text-decoration:none;
+        font-size: 20px;
+    }
+    a:hover{
+        color:#088A85;
+    }
+    .column{
+        float:left;
+        width:80%;
+        padding:1px;
+        height:100px;
+    }
+    .row:after{
+        content:"";
+        display:table;
+        clear:both;
+    }
+    
+    </style>
+    </head>
+    <body bgcolor="lavender">
+        
+       
+        <br><br> <span>
+            <h1 style="font-family: Kristen ITC "> CSB SERVICES</h1><br>
+            <b> <a href="/login" >SIGN IN</a></b>
+            <b> <a href="/register">SIGN UP</a></b>
+            <hr>
+          </span>
+      <br>
+    
+        <br><br><br><br><br><br><br>
+            <div class="row">
+            <div class="column">
+            <h1 style= "font-family: Gadugi">Use our calender slot booking<br> services which allow 
+            you to<br> define your slots on a day ...</h1>
+            </div>
+            <div class="column">
+                <center>
+             <img src="{{url_for('static',filename='img1.jpg')}}"/>
+         </center>
+            </div>
+            </div>
+    
+       
+    </body>
+</html>
